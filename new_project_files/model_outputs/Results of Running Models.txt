@@ -1,0 +1,57 @@
+Results of Running Models by Natasha 
+____________________________________________________________________________________________________________________________________
+Data set = pet_images
+
+# Total Images = 40
+# Dog Images = 30
+# Not-a-Dog Images = 10
+
+CNN Model  %Not-a-Dog  %Dogs Correct  %Breeds Correct  %Match Labels
+ResNet     90.0%       100.0%         90.0%            82.5%
+AlexNet    100.0%      100.0%         80.0%            75.0%
+VGG        100.0%      100.0%         93.3%            87.5%
+
+Conclusion: Best performance VGG model 
+
+Conclusion based in 2 main objectives:
+1.Identifying which pet images are of dogs and which pet images aren't of dogs
+
+2.Classifying the breeds of dogs, for the images that are of dogs
+
+For objective 1; both VGG and AlexNet correctly identify images of "dogs" and "not-a-dog" 
+100% of the time.
+
+For objective 2; VGG provides the best solution because it classifies the correct breed of dog over 90% of the time.
+
+___________________________________________________________________________________________________________________________________
+Data set = uploaded_images
+
+jpg of: 
+-Black bear, 
+-Bucket
+-Same dog image; Finnish spitz (head on left orientation) and Finnish spitz (head on left orientation)
+
+Notes:
+Black bear filename = Black_bear_01.jpg
+Bucket filename = Bucket_01.jpg
+Finnish spitz dog are identical images with different orientation.
+files named as Dog_01.jpg (head on left orientation) 
+and Dog_02.jpg (head on right orientation)
+
+CNN Model  Image Classification Correct Y/N* 						
+           Bucket  Black Bear  Finnish spitz_01  Finnish spitz_02			 	
+ResNet     Y       Y           Y-chow chow       Y-chow chow			
+AlexNet    N-cup   Y           Y-chow chow       Y-chow chow			 	
+VGG        Y       Y           Y-schipperke      Y-schipperke			
+
+*If classification incorrect output stated
+*If classification correct but breed/assignment wrong, output stated for comparison
+
+Conclusion: Best performance VGG model
+
+AlexNet and ResNet identified both dogs as breed chow chow – this is not a good breed match!. AlexNet also classified a bucket as a cup. 
+
+All models correctly classified the black bear.
+
+VGG identified both dogs as breed schipperke – this is actually related to finnish spitz and visually is almost identical. This is a better match.
+
