@@ -32,9 +32,9 @@ run_models_batch.bat # windows/anaconda promt/vscode terminal
 sh run_models_batch_uploaded.sh  #Linux shell
 run_models_batch_uploaded.bat # windows/anaconda promt/vscode terminal
 ```
-- Notes: Script fuctionality was tested in linux shell and Visual Studio Code with python interpreter with the following versions of the required packages;
-torch==2.2.1
-pillow==10.2.0
+- Notes: Script fuctionality was tested in linux shell and Visual Studio Code with python interpreter with the following versions of the required packages;<br>
+torch==2.2.1<br>
+pillow==10.2.0<br>
 torchvision==0.17.1
 
 # Original Version
