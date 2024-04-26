@@ -22,7 +22,7 @@ python check_images.py --dir pet_images/ --arch resnet  --dogfile dognames.txt
 python check_images.py --dir pet_images/ --arch alexnet --dogfile dognames.txt 
 python check_images.py --dir pet_images/ --arch vgg  --dogfile dognames.txt 
 ```
-- To batch process all 3 CNN architecture model sand output to a txt file in your project folder;
+- To batch process all 3 CNN architecture models and output to a txt file in your project folder;
 ```
 #for pet_images files
 sh run_models_batch.sh  #Linux shell
