@@ -36,7 +36,7 @@ torch==2.2.1<br>
 pillow==10.2.0<br>
 torchvision==0.17.1
 
-# Original Version
+# [Original Version](https://github.com/udacity/AIPND-revision/tree/master)
 ___________________________________________________________________________________________________________________
 # AIPND-revision
 This repository contains _REVISED_ code and associated files for the AI Programming with Python Nanodegree program. This repository consists of a number of tutorial notebooks for various coding exercises and programming labs that will be used to supplement the lessons of the course.
